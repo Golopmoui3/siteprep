@@ -160,3 +160,25 @@ The selected `build-message-handoff` todo remains actionable for the optional
 atomic discussion post and selected retries with attempt tracking. Evidence is
 in `work/app/test/evidence/message-results-20260913.md`; no lifecycle completion,
 real send or deployment is claimed.
+
+
+## 2026-09-13 — Prepare the requested private test rehearsal
+
+Added an explicit private-test mode using the Sites-dispatched signed-in user
+ID and exact HTTPS origin. Fictional organizer and preview tickets bind to that
+visitor; the local mode remains loopback-only. Registered the separate Flings
+test target and D1 binding, and kept runtime secrets outside source control.
+Updated the server/build dependencies required for hosting; the production
+dependency audit is clear. All 87 database/domain/HTTP/time tests pass, including
+four new hosted-rehearsal boundary tests. This is an early review deployment,
+not Phase 6 completion or authorization for real data, real sends or production.
+
+## 2026-09-13 — Publish and verify the private test Site
+
+Published Flings Test version 1 with its own D1 database and owner-only ChatGPT
+sign-in. The real browser sign-in, fictional organizer workspace/detail and
+member-link exchange all succeeded. The updated stack also passed six local
+member browser journeys across three engines at desktop/phone sizes. Deployment
+identity, source consistency, validation and remaining limitations are recorded
+in `notes/private-test-deployment-20260913.md`. The Phase 4 todo remains open;
+production has not been released.
