@@ -7,18 +7,17 @@
   "todo": [
     {
       "id": "verify-hosted-test",
-      "title": "Verify managed organizer identity, hosted acceptance and recovery retention",
-      "state": "blocked",
+      "title": "Verify native ChatGPT organizer sign-in, hosted acceptance and simple backup recovery",
+      "state": "actionable",
       "value": "high",
       "effort": "large",
-      "advances_stage": false,
-      "blocked_by": "data:managed organizer identity issuer/client, callback configuration and allowed accounts; provider backup retention and recovery/deletion procedure and approved audit retention before real personal data"
+      "advances_stage": false
     }
   ],
   "brief": {
-    "generated_at": "2026-09-14T21:06:08Z",
-    "commit": "f485847a726fb9eb8104cc71bb6960f14f8e936f",
-    "digest": "05790dd41f4c8e4b84211f4d10b9e0423facf9ea"
+    "generated_at": "2026-09-15T07:39:51Z",
+    "commit": "bdbd124126836c357dfc1088beef75e0bf99aff7",
+    "digest": "5a9b92414d9bfe4ceef114f15b3ede09ea02f4c6"
   },
   "deployments": [
     {
