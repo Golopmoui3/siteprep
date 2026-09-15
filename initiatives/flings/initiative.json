@@ -6,18 +6,19 @@
   "outputs": [],
   "todo": [
     {
-      "id": "build-recovery",
-      "title": "Build versioned editable export, isolated restore and deletion",
-      "state": "actionable",
+      "id": "verify-hosted-test",
+      "title": "Verify managed organizer identity, hosted acceptance and recovery retention",
+      "state": "blocked",
       "value": "high",
       "effort": "large",
-      "advances_stage": false
+      "advances_stage": false,
+      "blocked_by": "data:managed organizer identity issuer/client, callback configuration and allowed accounts; provider backup retention and recovery/deletion procedure and approved audit retention before real personal data"
     }
   ],
   "brief": {
-    "generated_at": "2026-09-14T17:24:11Z",
-    "commit": "aa104842a975afce23978098c5e4f46b8072223f",
-    "digest": "896ca5dbe579e4db6ca675a4588c8ef3040ba1dc"
+    "generated_at": "2026-09-14T21:06:08Z",
+    "commit": "f485847a726fb9eb8104cc71bb6960f14f8e936f",
+    "digest": "05790dd41f4c8e4b84211f4d10b9e0423facf9ea"
   },
   "deployments": [
     {
@@ -28,10 +29,10 @@
         "slug": "flings-test",
         "url": "https://flings-test.ken-novak.chatgpt.site",
         "access": "private",
-        "deployed_at": "2026-09-14T17:21:35Z",
-        "version": 6,
-        "commit": "df3277a5a638e4a72e7b64e7441a4553dcd30358",
-        "tree": "8ab58774fe54cc35dbbc1b7d8c03f8d1acee770d"
+        "deployed_at": "2026-09-14T21:06:08Z",
+        "version": 8,
+        "commit": "c382e563f002e2f2e6e8e7877f604fd47d2ba2aa",
+        "tree": "9ee26f08102c05d48af717d4e791680dfc434c98"
       }
     }
   ]
