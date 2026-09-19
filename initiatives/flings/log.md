@@ -273,3 +273,19 @@ acceptance receipt. The full hosted item remains open.
   in `notes/hosted-reflow-20260918.md`. No overflow or missing label candidates
   were found; no business records, source, audience or deployment changed.
   `verify-hosted-test` remains actionable for the rest of Phase 6.
+
+- 2026-09-18 (UTC): Hosted sequential keyboard acceptance found that opening
+  and cancelling a coordination form left focus on the page body. Added entry
+  and return focus for post, poll, payment and ledger forms, including heading
+  fallback when an action disappears. All 176 application tests and six
+  expanded desktop/phone coordination journeys pass. See
+  `notes/coordination-focus-20260918.md`. The live test Site reported public
+  access before any deployment; this run preserves that existing audience.
+  Full hosted acceptance remains open.
+
+- 2026-09-18 (UTC): Refreshed Flings test version 13 and verified twelve hosted
+  coordination-form opening/cancellation checks at desktop and phone widths.
+  Corrected the recorded test access to public to match the live policy already
+  present before deployment; no access-setting call was made. Hosted business
+  records and production remain unchanged. See the same coordination-focus
+  receipt for source, build and deployment evidence.
