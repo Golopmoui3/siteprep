@@ -305,3 +305,12 @@ acceptance receipt. The full hosted item remains open.
   `notes/hosted-keyboard-20260922.md` records scope, observation limits and an
   excluded resize/focus-refresh attempt. No business records, application
   source, deployment or access settings changed. Phase 6 remains open.
+
+- 2026-09-25 (UTC): Recorded eleven hosted DOM label/reference observations
+  across organizer editors, simultaneous gathering/member forms, the initial
+  deletion dialog, history and read-only member previews. All 39 ARIA and 127
+  explicit label references resolved uniquely, with no duplicate IDs or missing
+  native-control label/name candidates. See
+  `notes/hosted-label-relationships-20260925.md` for the reproducible probe and
+  its limits. No business records or application source changed; Phase 6 stays
+  open.

@@ -454,3 +454,14 @@ containment/cancellation and notification-history navigation also passed.
 The receipt records the excluded resize/focus-refresh attempt and the limits
 of the geometry/style probes. Full hosted browser, screen-reader, text-zoom
 and accessibility acceptance remain open; no business records changed.
+
+## September 25 hosted label-relationship receipt (UTC)
+
+`notes/hosted-label-relationships-20260925.md` records eleven T12 DOM observations
+covering the organizer page, coordination editors, simultaneous gathering/member
+editors, deletion dialog, expanded history and both read-only member previews.
+All 39 ARIA reference tokens and 127 explicit label references resolved uniquely;
+no duplicate IDs or missing native-control label/name candidates were found.
+Counts repeat elements across states. This is a targeted structural probe at
+1280 × 720, not axe, accessible-name conformance, text-zoom or screen-reader
+acceptance. Full Phase 6 remains open; no business records changed.
