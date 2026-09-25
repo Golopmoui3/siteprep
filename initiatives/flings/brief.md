@@ -23,6 +23,9 @@
   member previews recorded 114 focus stops at desktop/phone widths. Each stop
   intersected the viewport and matched `:focus-visible`; deletion-dialog
   containment/cancellation and notification-history navigation also passed.
+- Eleven hosted DOM observations checked editors, a dialog, history and member
+  previews. All 39 ARIA and 127 explicit label references resolved uniquely,
+  with no duplicate IDs or missing native-control label/name candidates.
 
 ## Remaining work
 
