@@ -135,3 +135,6 @@ Open the India1 deck directly at:
 ```
 https://<your-github-username>.github.io/siteprep/decks/india1/
 ```
+
+
+*Fixed by bug-hunter project*
